@@ -1,0 +1,37 @@
+Test1:
+
+Initial tape state: 1110b10
+Step 1: 1110b10 Current state: q0
+Step 2: 1110b10 Current state: q0
+Step 3: 1110b10 Current state: q0
+Step 4: 1110b10 Current state: q0
+Step 5: 1110b10 Current state: q1
+Step 6: 111bb10 Current state: q2
+Step 7: 11bbb10 Current state: qN
+Final tape state: 1110 Number of steps: 7
+
+Test2:
+
+Initial tape state: 1110b110
+Step 1: 1110b110 Current state: q0
+Step 2: 1110b110 Current state: q0
+Step 3: 1110b110 Current state: q0
+Step 4: 1110b110 Current state: q0
+Step 5: 1110b110 Current state: q1
+Step 6: 111bb110 Current state: q2
+Step 7: 11bbb110 Current state: qN
+Final tape state: 11110 Number of steps: 7
+
+Test3:
+Initial tape state: 1110110
+Step 1: 1110110 Current state: q0
+Step 2: 1110110 Current state: q0
+Step 3: 1110110 Current state: q0
+Step 4: 1110110 Current state: q0
+Step 5: 1110110 Current state: q0
+Step 6: 1110110 Current state: q0
+Step 7: 1110110 Current state: q0
+Step 8: 1110110 Current state: q1
+Step 9: 111011 Current state: q2
+Step 10: 11101 Current state: qN
+Final tape state: 11101 Number of steps: 10

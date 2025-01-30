@@ -1,0 +1,24 @@
+# Use an official Python runtime as a parent image
+FROM python:3.8-slim
+
+# Set the working directory in the container
+WORKDIR /usr/src/app
+
+# Install necessary packages for ffmpeg and OpenCV
+RUN apt-get update && apt-get install -y \
+    ffmpeg \
+    libopencv-dev \
+    python3-opencv \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy the current directory contents into the container at /usr/src/app
+COPY . .
+
+# Install any needed packages specified in requirements.txt
+RUN pip install --no-cache-dir numpy opencv-python ffmpeg-python
+
+# Make port 2300 available to the world outside this container
+EXPOSE 2300/udp
+
+# Run deployment_udp_client.py when the container launches
+CMD ["python", "./deployment_udp_client.py"]

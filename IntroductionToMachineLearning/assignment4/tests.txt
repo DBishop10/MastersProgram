@@ -1,0 +1,200 @@
+Testing Q-learning on ../Data/track/L-track.txt
+Run 1: 44 steps
+Run 2: 13 steps
+Run 3: 16 steps
+Run 4: 21 steps
+Run 5: 15 steps
+Run 6: 17 steps
+Run 7: 53 steps
+Run 8: 13 steps
+Run 9: 15 steps
+Run 10: 11 steps
+Average steps: 21.8
+
+Testing SARSA on ../Data/track/L-track.txt
+Run 1: 16 steps
+Run 2: 21 steps
+Run 3: 30 steps
+Run 4: 12 steps
+Run 5: 31 steps
+Run 6: 13 steps
+Run 7: 67 steps
+Run 8: 25 steps
+Run 9: 39 steps
+Run 10: 18 steps
+Average steps: 27.2
+
+Testing Value Iteration on ../Data/track/L-track.txt
+Run 1: 12 steps
+Run 2: 14 steps
+Run 3: 11 steps
+Run 4: 13 steps
+Run 5: 11 steps
+Run 6: 13 steps
+Run 7: 13 steps
+Run 8: 11 steps
+Run 9: 12 steps
+Run 10: 15 steps
+Average steps: 12.5
+
+Testing Q-learning on ../Data/track/W-track.txt
+Run 1: 43 steps
+Run 2: 22 steps
+Run 3: 11 steps
+Run 4: 12 steps
+Run 5: 42 steps
+Run 6: 21 steps
+Run 7: 11 steps
+Run 8: 83 steps
+Run 9: 26 steps
+Run 10: 15 steps
+Average steps: 28.6
+
+Testing SARSA on ../Data/track/W-track.txt
+Run 1: 29 steps
+Run 2: 16 steps
+Run 3: 14 steps
+Run 4: 12 steps
+Run 5: 37 steps
+Run 6: 10 steps
+Run 7: 13 steps
+Run 8: 12 steps
+Run 9: 48 steps
+Run 10: 11 steps
+Average steps: 20.2
+
+Testing Value Iteration on ../Data/track/W-track.txt
+Run 1: 9 steps
+Run 2: 9 steps
+Run 3: 11 steps
+Run 4: 10 steps
+Run 5: 12 steps
+Run 6: 12 steps
+Run 7: 9 steps
+Run 8: 13 steps
+Run 9: 13 steps
+Run 10: 10 steps
+Average steps: 10.8
+
+Testing Q-learning on ../Data/track/O-track.txt
+Run 1: 112 steps
+Run 2: 261 steps
+Run 3: 40 steps
+Run 4: 38 steps
+Run 5: 30 steps
+Run 6: 31 steps
+Run 7: 57 steps
+Run 8: 38 steps
+Run 9: 44 steps
+Run 10: 49 steps
+Average steps: 70.0
+
+Testing SARSA on ../Data/track/O-track.txt
+Run 1: 33 steps
+Run 2: 52 steps
+Run 3: 177 steps
+Run 4: 140 steps
+Run 5: 246 steps
+Run 6: 49 steps
+Run 7: 57 steps
+Run 8: 41 steps
+Run 9: 59 steps
+Run 10: 115 steps
+Average steps: 96.9
+
+Testing Value Iteration on ../Data/track/O-track.txt
+Run 1: 27 steps
+Run 2: 22 steps
+Run 3: 23 steps
+Run 4: 25 steps
+Run 5: 26 steps
+Run 6: 27 steps
+Run 7: 28 steps
+Run 8: 23 steps
+Run 9: 29 steps
+Run 10: 22 steps
+Average steps: 25.2
+
+
+Testing Q-learning on ../Data/track/R-track.txt with crash condition: Nearest point to the crash
+Run 1: 28 steps
+Run 2: 108 steps
+Run 3: 164 steps
+Run 4: 81 steps
+Run 5: 172 steps
+Run 6: 64 steps
+Run 7: 30 steps
+Run 8: 49 steps
+Run 9: 73 steps
+Run 10: 58 steps
+Average steps: 82.7
+
+
+Testing Q-learning on ../Data/track/R-track.txt with crash condition: Return to the start point
+Run 1: 39 steps
+Run 2: 70 steps
+Run 3: 37 steps
+Run 4: 34 steps
+Run 5: 35 steps
+Run 6: 42 steps
+Run 7: 34 steps
+Run 8: 44 steps
+Run 9: 35 steps
+Run 10: 33 steps
+Average steps: 40.3
+
+
+Testing SARSA on ../Data/track/R-track.txt with crash condition: Nearest point to the crash
+Run 1: 93 steps
+Run 2: 88 steps
+Run 3: 44 steps
+Run 4: 74 steps
+Run 5: 42 steps
+Run 6: 69 steps
+Run 7: 206 steps
+Run 8: 70 steps
+Run 9: 157 steps
+Run 10: 54 steps
+Average steps: 89.7
+
+
+Testing SARSA on ../Data/track/R-track.txt with crash condition: Return to the start point
+Run 1: 253 steps
+Run 2: 175 steps
+Run 3: 158 steps
+Run 4: 58 steps
+Run 5: 53 steps
+Run 6: 105 steps
+Run 7: 50 steps
+Run 8: 59 steps
+Run 9: 99 steps
+Run 10: 171 steps
+Average steps: 118.1
+
+
+Testing Value Iteration on ../Data/track/R-track.txt with crash condition: Nearest point to the crash
+Run 1: 25 steps
+Run 2: 31 steps
+Run 3: 32 steps
+Run 4: 29 steps
+Run 5: 30 steps
+Run 6: 32 steps
+Run 7: 32 steps
+Run 8: 25 steps
+Run 9: 30 steps
+Run 10: 31 steps
+Average steps: 29.7
+
+
+Testing Value Iteration on ../Data/track/R-track.txt with crash condition: Return to the start point
+Run 1: 30 steps
+Run 2: 30 steps
+Run 3: 30 steps
+Run 4: 47 steps
+Run 5: 30 steps
+Run 6: 107 steps
+Run 7: 55 steps
+Run 8: 29 steps
+Run 9: 81 steps
+Run 10: 53 steps
+Average steps: 49.2

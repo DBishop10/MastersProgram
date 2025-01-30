@@ -1,0 +1,112 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,Q1,Q2,Q3,Q4,Q5_1,Q6_1,Q7_1,Q8,Q9_1,Q9_2,Q9_3,Q9_4,Q10_1,Q10_2,Q10_3,Q10_4,RandomSurveyID
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,"On a scale of 1 to 5, how confident are you in using new technologies (e.g., learning a new app, device)? Consider the following information
+
+Ease of Use: Do you feel that picking up new technology is easy to do? Does the learning curve typically feel manageable or overwhelming to you?
+
+
+
+Self-Sufficient: Commonly do you feel like if you get stuck when learning new technology you are capable of figuring it out yourself? Do you normally know how to utilize google or other resources instead of requiring other people to directly show you?
+
+Frequency of Use: How frequently do you use technology on a day to day basis? 
+
+Complexity of the Technology: Do you tend to be able utilize technology that you feel is much more complex than normal? Ones that aren't as user friendly as other technology?
+
+Comfort of Troubleshooting: Can you troubleshoot new issues easily? Can you help someone else troubleshoot new technology if asked?","How long do you use technology such as smartphones or computers on a daily basis? Consider these things, Do you tend to utilize technology at work on a daily basis? Or even in a student or studying scene? Attend meetings via virtual connections? Personal as well, social media, browsing the internet, gaming, or even movies. What about basic communication such as phone calls or facetime.","Which of the following best describes your use of technology? (Check all that apply)
+
+Keep in mind there are a lot of reasons to utilize technology. For work you may need to utilize it to attend meetings or send emails. Personal life could include internet browsing or gaming. In school you may use it to study or take notes. Don't forget about any social media usage. You may also use it to look at the news or the weather.","In the past week, how many hours per day did you spend using technology for work-related tasks?
+
+Think about how many meetings you may have had to attend. Or how much of you're work day is spent looking at emails, looking things up, or even utilizing different applications. When you go home do you often have to make extra phone calls or respond to emails, even though your day is complete?","How would you rate the overall impact of technology on your daily productivity?
+
+Think about these questions when responding. Do you find yourself endlessly scrolling social medias or watching youtube videos? Do you instead tend to utilize technology for school or work more? Do you have separate areas for your work and personal technology? Could you go a day without technology? - Click to write Choice 1","On a scale of 1 to 5, how would you rate the effect of technology on your social relationships?
+
+Does it tend to help keep you in touch with those you care about? Do you instead find yourself ignoring those around you for technology? - Less than an hour","Do you think technology helps or hinders face-to-face social interactions?
+
+Consider these points. Do you think that technology has hindered the quality of face to face conversations, or make it easier? What situations can you think of where technology has helped or hinder face-to-face social interactions? Is there a healthy balance between technology and meaningful face to face interactions? - Click to write Choice 1","Technology is helpful for learning and education?
+
+Technology can help learners access information not readily available. Many consider the internet a library in your hands. It may lead to more collaboration especially in times like the pandemic. Newer technology however may be a distraction as we see more and more people needing their phones or laptops. Social media may keep people in touch but it can also be a major distraction.","Please rank your level of excitement for the following emerging technologies.
+
+Artificial intelligence has been on a exponential rise in popularity especially models such as ChatGPT. It has given access to more information quicker to more people. However, it also has many issues with ethics stealing tons of information for training, with and without the creators approval.
+
+Virtual Reality has also seen a spike with items from Meta. It allows things like video games to feel more realistic and even attend work or other meetings as if you were in the office. There do seem to be some issues with motion sickness and eye strain that may eventually damage people eyes more than ""normal"" technology.
+
+Augmented Reality had its biggest spike when Meta released the Quest 3 with true passthrough. People quickly latched on to the technology and utilized it to do chores or make their trip to work more entertaining. There may be many more benefits and possibly many harmful items we do not know yet as this technology hasn't been explored to its fullest extent yet.
+
+Autonomous Vehicles spiked in popularity with Tesla's cars with a Beta Self Driving Mode. This has been very interesting to watch progress and learn the road. They have even been capable enough to drive through city streets with no incidents. There have been lawsuits however that may point to more accidents than being let on, the self driving mode may be malfunctioning a lot more than we believe. - Artificial Intelligence","Please rank your level of excitement for the following emerging technologies.
+
+Artificial intelligence has been on a exponential rise in popularity especially models such as ChatGPT. It has given access to more information quicker to more people. However, it also has many issues with ethics stealing tons of information for training, with and without the creators approval.
+
+Virtual Reality has also seen a spike with items from Meta. It allows things like video games to feel more realistic and even attend work or other meetings as if you were in the office. There do seem to be some issues with motion sickness and eye strain that may eventually damage people eyes more than ""normal"" technology.
+
+Augmented Reality had its biggest spike when Meta released the Quest 3 with true passthrough. People quickly latched on to the technology and utilized it to do chores or make their trip to work more entertaining. There may be many more benefits and possibly many harmful items we do not know yet as this technology hasn't been explored to its fullest extent yet.
+
+Autonomous Vehicles spiked in popularity with Tesla's cars with a Beta Self Driving Mode. This has been very interesting to watch progress and learn the road. They have even been capable enough to drive through city streets with no incidents. There have been lawsuits however that may point to more accidents than being let on, the self driving mode may be malfunctioning a lot more than we believe. - Virtual Reality","Please rank your level of excitement for the following emerging technologies.
+
+Artificial intelligence has been on a exponential rise in popularity especially models such as ChatGPT. It has given access to more information quicker to more people. However, it also has many issues with ethics stealing tons of information for training, with and without the creators approval.
+
+Virtual Reality has also seen a spike with items from Meta. It allows things like video games to feel more realistic and even attend work or other meetings as if you were in the office. There do seem to be some issues with motion sickness and eye strain that may eventually damage people eyes more than ""normal"" technology.
+
+Augmented Reality had its biggest spike when Meta released the Quest 3 with true passthrough. People quickly latched on to the technology and utilized it to do chores or make their trip to work more entertaining. There may be many more benefits and possibly many harmful items we do not know yet as this technology hasn't been explored to its fullest extent yet.
+
+Autonomous Vehicles spiked in popularity with Tesla's cars with a Beta Self Driving Mode. This has been very interesting to watch progress and learn the road. They have even been capable enough to drive through city streets with no incidents. There have been lawsuits however that may point to more accidents than being let on, the self driving mode may be malfunctioning a lot more than we believe. - Augmented Reality","Please rank your level of excitement for the following emerging technologies.
+
+Artificial intelligence has been on a exponential rise in popularity especially models such as ChatGPT. It has given access to more information quicker to more people. However, it also has many issues with ethics stealing tons of information for training, with and without the creators approval.
+
+Virtual Reality has also seen a spike with items from Meta. It allows things like video games to feel more realistic and even attend work or other meetings as if you were in the office. There do seem to be some issues with motion sickness and eye strain that may eventually damage people eyes more than ""normal"" technology.
+
+Augmented Reality had its biggest spike when Meta released the Quest 3 with true passthrough. People quickly latched on to the technology and utilized it to do chores or make their trip to work more entertaining. There may be many more benefits and possibly many harmful items we do not know yet as this technology hasn't been explored to its fullest extent yet.
+
+Autonomous Vehicles spiked in popularity with Tesla's cars with a Beta Self Driving Mode. This has been very interesting to watch progress and learn the road. They have even been capable enough to drive through city streets with no incidents. There have been lawsuits however that may point to more accidents than being let on, the self driving mode may be malfunctioning a lot more than we believe. - Autonomous Vehicles","Please rank your level of concern for the following emerging technologies.
+
+Artificial intelligence has been on a exponential rise in popularity especially models such as ChatGPT. It has given access to more information quicker to more people. However, it also has many issues with ethics stealing tons of information for training, with and without the creators approval.
+
+Virtual Reality has also seen a spike with items from Meta. It allows things like video games to feel more realistic and even attend work or other meetings as if you were in the office. There do seem to be some issues with motion sickness and eye strain that may eventually damage people eyes more than ""normal"" technology.
+
+Augmented Reality had its biggest spike when Meta released the Quest 3 with true passthrough. People quickly latched on to the technology and utilized it to do chores or make their trip to work more entertaining. There may be many more benefits and possibly many harmful items we do not know yet as this technology hasn't been explored to its fullest extent yet.
+
+Autonomous Vehicles spiked in popularity with Tesla's cars with a Beta Self Driving Mode. This has been very interesting to watch progress and learn the road. They have even been capable enough to drive through city streets with no incidents. There have been lawsuits however that may point to more accidents than being let on, the self driving mode may be malfunctioning a lot more than we believe. - Artificial Intelligence","Please rank your level of concern for the following emerging technologies.
+
+Artificial intelligence has been on a exponential rise in popularity especially models such as ChatGPT. It has given access to more information quicker to more people. However, it also has many issues with ethics stealing tons of information for training, with and without the creators approval.
+
+Virtual Reality has also seen a spike with items from Meta. It allows things like video games to feel more realistic and even attend work or other meetings as if you were in the office. There do seem to be some issues with motion sickness and eye strain that may eventually damage people eyes more than ""normal"" technology.
+
+Augmented Reality had its biggest spike when Meta released the Quest 3 with true passthrough. People quickly latched on to the technology and utilized it to do chores or make their trip to work more entertaining. There may be many more benefits and possibly many harmful items we do not know yet as this technology hasn't been explored to its fullest extent yet.
+
+Autonomous Vehicles spiked in popularity with Tesla's cars with a Beta Self Driving Mode. This has been very interesting to watch progress and learn the road. They have even been capable enough to drive through city streets with no incidents. There have been lawsuits however that may point to more accidents than being let on, the self driving mode may be malfunctioning a lot more than we believe. - Virtual Reality","Please rank your level of concern for the following emerging technologies.
+
+Artificial intelligence has been on a exponential rise in popularity especially models such as ChatGPT. It has given access to more information quicker to more people. However, it also has many issues with ethics stealing tons of information for training, with and without the creators approval.
+
+Virtual Reality has also seen a spike with items from Meta. It allows things like video games to feel more realistic and even attend work or other meetings as if you were in the office. There do seem to be some issues with motion sickness and eye strain that may eventually damage people eyes more than ""normal"" technology.
+
+Augmented Reality had its biggest spike when Meta released the Quest 3 with true passthrough. People quickly latched on to the technology and utilized it to do chores or make their trip to work more entertaining. There may be many more benefits and possibly many harmful items we do not know yet as this technology hasn't been explored to its fullest extent yet.
+
+Autonomous Vehicles spiked in popularity with Tesla's cars with a Beta Self Driving Mode. This has been very interesting to watch progress and learn the road. They have even been capable enough to drive through city streets with no incidents. There have been lawsuits however that may point to more accidents than being let on, the self driving mode may be malfunctioning a lot more than we believe. - Augmented Reality","Please rank your level of concern for the following emerging technologies.
+
+Artificial intelligence has been on a exponential rise in popularity especially models such as ChatGPT. It has given access to more information quicker to more people. However, it also has many issues with ethics stealing tons of information for training, with and without the creators approval.
+
+Virtual Reality has also seen a spike with items from Meta. It allows things like video games to feel more realistic and even attend work or other meetings as if you were in the office. There do seem to be some issues with motion sickness and eye strain that may eventually damage people eyes more than ""normal"" technology.
+
+Augmented Reality had its biggest spike when Meta released the Quest 3 with true passthrough. People quickly latched on to the technology and utilized it to do chores or make their trip to work more entertaining. There may be many more benefits and possibly many harmful items we do not know yet as this technology hasn't been explored to its fullest extent yet.
+
+Autonomous Vehicles spiked in popularity with Tesla's cars with a Beta Self Driving Mode. This has been very interesting to watch progress and learn the road. They have even been capable enough to drive through city streets with no incidents. There have been lawsuits however that may point to more accidents than being let on, the self driving mode may be malfunctioning a lot more than we believe. - Autonomous Vehicles",RandomSurveyID
+"{""ImportId"":""startDate"",""timeZone"":""America/New_York""}","{""ImportId"":""endDate"",""timeZone"":""America/New_York""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/New_York""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID3""}","{""ImportId"":""QID1""}","{""ImportId"":""QID4""}","{""ImportId"":""QID7""}","{""ImportId"":""QID6_1""}","{""ImportId"":""QID5_1""}","{""ImportId"":""QID8_1""}","{""ImportId"":""QID11""}","{""ImportId"":""QID9_1""}","{""ImportId"":""QID9_2""}","{""ImportId"":""QID9_3""}","{""ImportId"":""QID9_4""}","{""ImportId"":""QID10_1""}","{""ImportId"":""QID10_2""}","{""ImportId"":""QID10_3""}","{""ImportId"":""QID10_4""}","{""ImportId"":""RandomSurveyID""}"
+2024-10-15 16:47:10,2024-10-15 16:48:17,0,154.27.64.88,100,66,1,2024-10-15 16:48:18,R_5I6prVHDTzRZvL5,,,,,26.7158,-80.0491,anonymous,EN,4,3,"1,2,3,4,5",3,4,3,3,1,2,3,4,1,2,1,3,4,98040
+2024-10-15 16:47:34,2024-10-15 16:48:31,0,162.253.252.125,100,57,1,2024-10-15 16:48:32,R_5XHGc861mjYx80p,,,,,45.413,-75.7011,anonymous,EN,5,5,"1,3,4,5",5,4,4,4,1,1,3,2,4,1,3,4,2,50747
+2024-10-15 16:46:29,2024-10-15 16:48:53,0,137.155.34.4,100,143,1,2024-10-15 16:48:54,R_5qmWMCFvXZEaT7f,,,,,37.751,-97.822,anonymous,EN,3,3,4,3,1,4,2,1,3,1,2,4,1,3,4,2,28628
+2024-10-15 16:47:32,2024-10-15 16:50:54,0,209.114.8.28,100,201,1,2024-10-15 16:50:54,R_62A9wkNZrqsld5f,,,,,37.751,-97.822,anonymous,EN,3,3,"1,3,4",3,4,3,3,1,1,4,2,3,2,3,1,4,30101
+2024-10-15 16:48:16,2024-10-15 16:51:04,0,103.163.233.209,100,168,1,2024-10-15 16:51:05,R_4AMZsMBUkZOfgCH,,,,,12.8996,80.2209,anonymous,EN,2,3,"2,3",3,4,3,3,1,2,3,1,4,1,4,2,3,51355
+2024-10-15 16:47:58,2024-10-15 16:51:08,0,137.155.55.162,100,189,1,2024-10-15 16:51:08,R_1mhm4GYnIxndLCV,,,,,37.751,-97.822,anonymous,EN,4,3,4,2,4,3,4,1,3,1,4,2,2,4,1,3,78499
+2024-10-15 16:50:03,2024-10-15 16:51:16,0,209.20.229.158,100,73,1,2024-10-15 16:51:16,R_5f8Xi0FhUvn1i5b,,,,,40.9466,-74.1834,anonymous,EN,3,3,3,3,4,3,3,1,4,2,1,3,4,2,3,1,50386
+2024-10-15 16:49:25,2024-10-15 16:51:33,0,209.114.26.110,100,127,1,2024-10-15 16:51:34,R_1qPy9OpnewS0lXt,,,,,37.751,-97.822,anonymous,EN,4,5,"1,2,3,4,5",4,1,4,1,1,2,4,1,3,3,4,1,2,28999
+2024-10-15 16:48:29,2024-10-15 16:53:07,0,38.154.109.18,100,278,1,2024-10-15 16:53:07,R_5gNFcIlUFKP7WHU,,,,,42.8867,-78.8927,anonymous,EN,4,4,"3,5",4,4,4,4,1,1,3,2,4,4,1,2,3,36586
+2024-10-15 16:52:35,2024-10-15 16:53:36,0,139.171.226.77,100,61,1,2024-10-15 16:53:36,R_6h5zSHMtOR6qXE5,,,,,37.751,-97.822,anonymous,EN,4,2,"1,2,3,4,5",2,4,4,4,1,4,1,2,3,4,1,2,3,42862
+2024-10-15 16:53:57,2024-10-15 16:54:38,0,139.171.160.164,100,41,1,2024-10-15 16:54:39,R_5hEYhnLCy3WPhBQ,,,,,43.1139,-79.0425,anonymous,EN,4,2,"1,2,3,4,5",2,4,4,4,1,4,1,2,3,3,1,2,4,46785
+2024-10-15 16:54:19,2024-10-15 16:55:10,0,192.126.152.30,100,51,1,2024-10-15 16:55:11,R_7QJGanwBkGdcJxA,,,,,37.751,-97.822,anonymous,EN,3,2,"1,2,3,5",2,3,3,3,1,2,3,1,4,3,1,2,4,42883
+2024-10-15 17:00:40,2024-10-15 17:01:28,0,192.25.211.84,100,47,1,2024-10-15 17:01:28,R_1xMe69yj2LF2IOi,,,,,37.751,-97.822,anonymous,EN,3,3,"2,3",3,4,4,4,1,4,2,1,3,2,1,4,3,98310
+2024-10-15 16:56:08,2024-10-15 17:01:35,0,137.155.32.168,100,326,1,2024-10-15 17:01:35,R_5dEPIXu9W1yX0e5,,,,,37.751,-97.822,anonymous,EN,4,3,"3,4,5",3,4,4,5,1,4,1,3,2,4,1,3,2,85247
+2024-10-15 17:02:20,2024-10-15 17:03:53,0,208.214.160.116,100,93,1,2024-10-15 17:03:53,R_7KxQSEjmQWAQIdD,,,,,40.009,-76.3631,anonymous,EN,4,3,"1,2",3,5,5,5,1,1,3,4,2,3,1,2,4,60455
+2024-10-15 17:06:30,2024-10-15 17:08:06,0,207.230.114.99,100,95,1,2024-10-15 17:08:06,R_7lV2K4SCE4yuzT3,,,,,34.0251,-118.1556,anonymous,EN,4,2,"1,2,4",2,5,4,4,1,1,4,2,3,4,3,1,2,55224
+2024-10-15 17:07:09,2024-10-15 17:08:36,0,139.171.181.6,100,86,1,2024-10-15 17:08:36,R_31zkCjgYeNKONpf,,,,,43.1139,-79.0425,anonymous,EN,5,3,3,3,4,4,5,1,2,1,4,3,3,2,1,4,94687
+2024-10-15 17:07:03,2024-10-15 17:10:01,0,137.155.103.53,100,178,1,2024-10-15 17:10:02,R_69brncfFsMX1Gcg,,,,,37.751,-97.822,anonymous,EN,3,2,4,2,3,2,4,1,1,2,3,4,1,2,3,4,18744
+2024-10-15 17:19:43,2024-10-15 17:22:05,0,209.20.255.183,100,142,1,2024-10-15 17:22:06,R_7soGoq4E8jQqiyI,,,,,41.3768,-81.9161,anonymous,EN,1,2,1,2,3,5,5,1,1,3,4,2,1,3,2,4,58504
+2024-10-15 17:29:21,2024-10-15 17:35:10,0,139.171.169.209,100,349,1,2024-10-15 17:35:11,R_5Gwiq4yW0y6xs5i,,,,,43.1139,-79.0425,anonymous,EN,3,4,"1,2",3,4,4,5,1,1,2,3,4,1,2,4,3,58225
+2024-10-15 17:37:11,2024-10-15 17:40:44,0,139.171.179.160,100,213,1,2024-10-15 17:40:45,R_3rlrSxYceiMgYke,,,,,43.1139,-79.0425,anonymous,EN,3,2,"1,2,3,4,5",2,4,4,4,1,1,2,3,4,1,4,3,2,39702

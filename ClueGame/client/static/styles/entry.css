@@ -1,0 +1,10 @@
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
+.wallpaper{
+    height: 70vh; 
+    background-size:cover
+}
+

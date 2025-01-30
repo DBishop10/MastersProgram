@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
+
+
+Video 1: This is not needed but it’s a cool introduction to how PyTorch works and implements backprop.
+Video 2-6: This is the assignment. Watch these videos and follow along, implementing makemore. There are Parts 1 -5 (Videos in the green box).
+Video 7: Shakespeare GPT…not needed but fun, too. (It’s assigned in the AAI class in Fall 2024).
+
+You will be submitting the final makemore notebook as PR14 (the final model of the video with the green arrow). Follow along with Andrei. You can go to his repo (specified in the video description) and find out what additional things you need to install. It can also keep you on track. You don't need to do testing or documentation.

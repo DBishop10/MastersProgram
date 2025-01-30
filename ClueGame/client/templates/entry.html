@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block css %}
+  <link rel="stylesheet" href="../static/styles/entry.css">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="title">
+    <section class="py-1 text-center">
+          <h1 class="fw-light">CLUE</h1> 
+    </section>
+  </div>
+
+ 
+  <div class="wallpaper rounded-4" style="background-image: url('../static/images/wallPaper3.png');">
+  </div>
+  
+  <div class="start-game text-center py-4">
+    <form action="/home" method="get">
+      <button type="submit" class="btn btn-outline-secondary">New Game</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

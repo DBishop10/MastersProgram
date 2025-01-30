@@ -1,0 +1,84 @@
+Testing on Abalone Dataset
+Starting Regression KNN
+Best hyperparameters: {'k': 7, 'gamma': 0.1, 'distance_metric': 'euclidean'}
+Mean cross-validation score on training data: 7.417345130367069
+Final mean score on cross-validation: 7.628740869111509
+Final mean score on test data: 6.636363636363637
+Starting Regression Edited KNN
+Best hyperparameters for EditedKNN regression: {'k': 1, 'gamma': 0.1, 'epsilon': 1, 'distance_metric': 'euclidean'}
+Mean cross-validation score on training data for EditedKNN regression: 7.813457390152431
+Final mean score on cross-validation for EditedKNN regression: 8.409307915921286
+Final mean score on test data for EditedKNN regression: 7.077751196172249
+
+
+
+Testing on Breast Cancer Dataset
+Starting Classification KNN
+Best hyperparameters: {'k': 3, 'distance_metric': 'manhattan'}
+Mean cross-validation accuracy on training data: 0.9551640926640926
+Final mean accuracy on cross-validation: 0.9483870967741936
+Final mean accuracy on test data: 0.9787234042553191
+Starting Classification Edited KNN
+Best hyperparameters for EditedKNN classification: {'k': 1, 'epsilon': 0.1, 'distance_metric': 'euclidean'}
+Mean cross-validation accuracy on training data for EditedKNN classification: 0.9499034749034749
+Final mean accuracy on cross-validation for EditedKNN classification: 0.9512544802867383
+Final mean accuracy on test data for EditedKNN classification: 0.9716312056737588
+
+
+
+Testing on Car Dataset
+Starting Classification KNN
+Best hyperparameters: {'k': 7, 'distance_metric': 'euclidean'}
+Mean cross-validation accuracy on training data: 0.8357034479150316
+Final mean accuracy on cross-validation: 0.8101260785792075
+Final mean accuracy on test data: 0.846820809248555
+Starting Classification Edited KNN
+Best hyperparameters for EditedKNN classification: {'k': 9, 'epsilon': 1, 'distance_metric': 'manhattan'}
+Mean cross-validation accuracy on training data for EditedKNN classification: 0.8038978705593051
+Final mean accuracy on cross-validation for EditedKNN classification: 0.7953698584233895
+Final mean accuracy on test data for EditedKNN classification: 0.7687861271676301
+
+
+
+Testing on Machine Dataset
+Starting Regression KNN
+Best hyperparameters: {'k': 1, 'gamma': 0.5, 'distance_metric': 'manhattan'}
+Mean cross-validation score on training data: 6541.664349376113
+Final mean score on cross-validation: 11219.5341712204
+Final mean score on test data: 1870.404761904762
+Starting Regression Edited KNN
+Best hyperparameters for EditedKNN regression: {'k': 3, 'gamma': 10, 'epsilon': 0.5, 'distance_metric': 'euclidean'}
+Mean cross-validation score on training data for EditedKNN regression: 27518.431729055254
+Final mean score on cross-validation for EditedKNN regression: 27503.993226381463
+Final mean score on test data for EditedKNN regression: 11599.642857142857
+
+
+
+Testing on House Votes Dataset
+Starting Classification KNN
+Best hyperparameters: {'k': 3, 'distance_metric': 'euclidean'}
+Mean cross-validation accuracy on training data: 0.9280745341614907
+Final mean accuracy on cross-validation: 0.9233672181250416
+Final mean accuracy on test data: 0.9431818181818182
+Starting Classification Edited KNN
+Best hyperparameters for EditedKNN classification: {'k': 1, 'epsilon': 0.5, 'distance_metric': 'euclidean'}
+Mean cross-validation accuracy on training data for EditedKNN classification: 0.9192546583850932
+Final mean accuracy on cross-validation for EditedKNN classification: 0.9204537904458177
+Final mean accuracy on test data for EditedKNN classification: 0.9659090909090909
+
+
+
+Testing on Forest Fires Dataset
+Starting Regression KNN
+Best hyperparameters: {'k': 9, 'gamma': 10, 'distance_metric': 'euclidean'}
+Mean cross-validation score on training data: 3.1570375968672697
+Final mean score on cross-validation: 2.5018822803488603
+Final mean score on test data: 2.788355767226147
+Starting Regression Edited KNN
+Best hyperparameters for EditedKNN regression: {'k': 1, 'gamma': 0.01, 'epsilon': 0.01, 'distance_metric': 'euclidean'}
+Mean cross-validation score on training data for EditedKNN regression: 3.250917613415246
+Final mean score on cross-validation for EditedKNN regression: 2.3630691214888095
+Final mean score on test data for EditedKNN regression: 2.9335796088255908
+
+
+

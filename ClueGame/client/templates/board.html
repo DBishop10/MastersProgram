@@ -1,0 +1,410 @@
+{% extends 'base.html' %}
+{% block css %}
+    <link rel="stylesheet" href="../static/styles/board.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+{% endblock %}
+
+{% block content %}
+        <main class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="my-3 p-3 bg-body rounded shadow-lg parent" id="parent">
+                        <img class="h-100" src="../static/images/GameBoard.png"  id="board" style="height: 795; width: 795;"/>
+                    </div>
+                    <script>     
+                        const socket = io();
+                        document.getElementById("board").addEventListener("click", getMousePos, true)
+                        function getMousePos(e) {
+                            var cursorX = e.pageX;
+                            var cursorY = e.pageY;
+                            socket.emit("room_select", cursorX, cursorY)
+                        }
+                    </script>
+                </div>
+        
+                <div class="col-md-4">
+                    <div class="my-2 p-2 bg-body rounded shadow-lg">
+                        <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Suspect</th>
+                                <th scope="col">Weapons</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Colonel
+                                    <input class="form-check-input" type="checkbox" id="colonel" value="ColMustard">
+                                </td>  
+                                <td>Knife
+                                    <input class="form-check-input" type="checkbox" id="knife" value="knife">
+                                </td>   
+                              </tr>
+    
+                              <tr>
+                                <td>Mr. Green
+                                    <input class="form-check-input" type="checkbox" id="green" value="MrGreen">
+                                </td>
+                                <td>Candlestick
+                                    <input class="form-check-input" type="checkbox" id="candlestick" value="candlestick">
+                                </td>  
+                              </tr>
+    
+                              <tr>
+                                <td>Prof Plum
+                                    <input class="form-check-input" type="checkbox" id="plum" value="ProfPlum">
+                                </td>
+                                <td>Revolver
+                                    <input class="form-check-input" type="checkbox" id="revolver" value="revolver">
+                                </td>    
+                              </tr>
+    
+                              <tr>
+                                <td>Peacock
+                                    <input class="form-check-input" type="checkbox" id="peacock" value="MrsPeacock">
+                                </td>
+                                <td>Rope
+                                    <input class="form-check-input" type="checkbox" id="rope" value="rope">
+                                </td>
+                              </tr>
+    
+                              <tr>
+                                <td>Scarlet
+                                    <input class="form-check-input" type="checkbox" id="scarlet" value="MissScarlet">
+                                </td>
+                                <td>Lead Pipe
+                                    <input class="form-check-input" type="checkbox" id="leadpipe" value="lead pipe">
+                                </td>
+                              </tr>
+    
+                              <tr>
+                                <td>White
+                                    <input class="form-check-input" type="checkbox" id="white" value="MrsWhite">
+                                </td>
+                                <td>Wrench
+                                    <input class="form-check-input" type="checkbox" id="wrench" value="wrench">
+                                </td>                            
+                              </tr>
+                              
+                              <tr>
+                                <td></td>
+                                <td>
+                                    <button type="button" onclick="notify('Next Turn')" class="btn btn-outline-info">Next Turn</button>
+                                </td>
+                              </tr>
+    
+                              <tr>
+                                <td >
+                                    <button type="button" id="suggestionButton" onclick="notify('Suggestion')" class="btn btn-outline-success">Suggestion</button>
+                                </td>
+                                <td>
+                                    <button type="button" onclick="notify('Accusation')" class="btn btn-outline-info">Accusation</button>
+                                </td>
+                              </tr>
+                            </tbody>
+                        </table>
+                    
+                    </div>
+                    <div class="my-1 p-1 bg-body rounded shadow-lg">
+                        <div class="card border-light mb-3"> 
+                            <div class="card-header">Notes</div>
+                            <div class="card-body">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                            </div>
+                          </div>
+                    </div>
+                
+                    <div class="my-1 p-1 bg-body rounded shadow-lg">
+                        <p id="player_character_name"></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+        <script src="path_to_socket.io_library"></script>
+        <script src="path_to_toastify_library"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript">            
+            var intervalID = setInterval(update_values, 500)
+            $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+            function update_values() {
+                $.getJSON($SCRIPT_ROOT + '/move',
+                function(data) {
+                    for(let i = 0; i < data[1].length; i++) {
+                        var $img = $("<img />")
+                        if(document.getElementById(data[1][i]) == undefined){
+                            $img.attr("id", data[1][i])
+                            $img.attr("src", "../static/images/" + data[0][data[1][i]].character + ".png")
+                            $img.attr("style", "height: 80px; width: 50px; transform: translate(" + data[0][data[1][i]].htmlLocal + " );")
+                            console.log(data[0][data[1][i]].htmlLocal)
+                            $img.attr("class", "image2")
+                            $("#parent").append($img)
+                        }
+                        else{
+                            document.getElementById(data[1][i]).style.transform = "translate("+ data[0][data[1][i]].htmlLocal +")"
+                        }
+                    }
+
+
+                  }
+                )
+            }
+        </script>    
+
+        <script>
+
+            let suggest = {
+                "Murder": "",
+                "Weapon": "",
+                "Type": "",
+            }
+
+            const suspects = ["Mustard", "Green", "Plum", "Peacock", "Scarlet", "White"]
+            const weapons = ["Knife", "Candlestick", "Revolver", "Rope", "Lead Pipe", "Wrench"]
+            const rooms = ["Hall", "Lounge", "Dinning", "Kitchen", "Ballroom", "Study", "Billiard", "Library", "Conservatory"]
+
+            let suspect = Math.floor(Math.random() * 6)
+            let weapon = Math.floor(Math.random() * 6)
+            let room = Math.floor(Math.random() * 9)
+
+            let correct_cards = [suspects[suspect], weapons[weapon], rooms[room]]
+            console.log(correct_cards)
+
+
+            const checkColonel = document.getElementById('colonel');
+            checkColonel.addEventListener('change', function() {
+            
+                if (this.checked) {   
+                    suggest.Murder  = this.value;
+                } else {
+                    suggest.Murder  = "";
+                }
+            });
+
+            const checkPlum = document.getElementById('plum');
+            checkPlum.addEventListener('change', function() {
+            
+                if (this.checked) {   
+                    suggest.Murder  = this.value;
+                } else {
+                    suggest.Murder  = "";
+                }
+            });
+
+            const checkGreen = document.getElementById('green');
+            checkGreen.addEventListener('change', function() {
+            
+                if (this.checked) {   
+                    suggest.Murder  = this.value;
+                } else {
+                    suggest.Murder  = "";
+                }
+            });
+
+            const checkWhite = document.getElementById('white');
+            checkWhite.addEventListener('change', function() {
+            
+                if (this.checked) {   
+                    suggest.Murder  = this.value;
+                } else {
+                    suggest.Murder  = "";
+                }
+            });
+
+            const checkScarlet = document.getElementById('scarlet');
+            checkScarlet.addEventListener('change', function() {
+            
+                if (this.checked) {   
+                    suggest.Murder  = this.value;
+                } else {
+                    suggest.Murder  = "";
+                }
+            });
+
+
+            const checkPeacock = document.getElementById('peacock');
+            checkPeacock.addEventListener('change', function() {
+            
+                if (this.checked) {   
+                    suggest.Murder  = this.value;
+                } else {
+                    suggest.Murder  = "";
+                }
+            });
+
+
+            const checkKnife = document.getElementById('knife');
+            checkKnife.addEventListener('change', function() {
+            
+                if (this.checked) {   
+                    suggest.Weapon  = this.value;
+                } else {
+                    suggest.Weapon  = "";
+                }
+            });
+
+            const checkCandlestick = document.getElementById('candlestick');
+            checkCandlestick.addEventListener('change', function() {
+            
+                if (this.checked) {   
+                    suggest.Weapon  = this.value;
+                } else {
+                    suggest.Weapon  = "";
+                }
+            });
+
+            const checkRevolver = document.getElementById('revolver');
+            checkRevolver.addEventListener('change', function() {
+            
+                if (this.checked) {   
+                    suggest.Weapon  = this.value;
+                } else {
+                    suggest.Weapon  = "";
+                }
+            });
+
+            const checkLeadPipe = document.getElementById('leadpipe');
+            checkLeadPipe.addEventListener('change', function() {
+            
+                if (this.checked) {   
+                    suggest.Weapon  = this.value;
+                } else {
+                    suggest.Weapon  = "";
+                }
+            });
+
+            const checkWrench = document.getElementById('wrench');
+            checkWrench.addEventListener('change', function() {
+            
+                if (this.checked) {   
+                    suggest.Weapon  = this.value;
+                } else {
+                    suggest.Weapon  = "";
+                }
+            });
+
+            const checkRope = document.getElementById('rope');
+            checkRope.addEventListener('change', function() {
+            
+                if (this.checked) {   
+                    suggest.Weapon  = this.value;
+                } else {
+                    suggest.Weapon  = "";
+                }
+            });
+
+            const socketio = io();
+
+            function notify(action) {
+                suggest.Type = action
+                socketio.emit("notification", [suggest, correct_cards]); // Corrected the emit parameter to match the event name
+            }
+
+            let selectedCharacter = ""
+            socketio.on("start_with_player", (selected)=>{
+                selectedCharacter = selected.selectedChar
+                document.getElementById("player_character_name").textContent = "User: " + selected.userName + " Character: " + selected.selectedChar
+            })
+            
+            
+            // Handling the notification received from the server
+            socket.on("notifying", ([suggestion, cards]) => {
+
+                let message = ""
+                if(suggestion.Type === "Next Turn"){
+                    Toastify({
+                        text: "It is the next players turn",
+                        duration: -1,
+                        destination: "https://github.com/apvarun/toastify-js",
+                        newWindow: true,
+                        close: true,
+                        gravity: "top", // `top` or `bottom`
+                        position: "right", // `left`, `center` or `right`
+                        stopOnFocus: true, // Prevents dismissing of toast on hover
+                        style: {
+                            background: "linear-gradient(to right, #00b09b, #96c93d)",
+                        },
+                        onClick: function(){} // Callback after click
+                    }).showToast();
+                }
+                if (suggestion.Type === "Suggestion"){
+                    message = suggestion.Type + " made by " + selectedCharacter + ":" + "\n" + suggestion.Murder + " used " + suggestion.Weapon + " in the " + suggestion.Room
+                    Toastify({
+                        text: message,
+                        duration: -1,
+                        destination: "https://github.com/apvarun/toastify-js",
+                        newWindow: true,
+                        close: true,
+                        gravity: "top", // `top` or `bottom`
+                        position: "right", // `left`, `center` or `right`
+                        stopOnFocus: true, // Prevents dismissing of toast on hover
+                        style: {
+                            background: "linear-gradient(to right, #00b09b, #96c93d)",
+                        },
+                        onClick: function(){} // Callback after click
+                    }).showToast();
+                } else{
+                    if (cards[0]== suggestion.Murder && suspect ,cards[1] == suggestion.Weapon){
+                        message = message = suggestion.Type + " made by " + selectedCharacter + ":" + "\n" + suggestion.Murder + " used " + suggestion.Weapon + " in the " + suggestion.Room + "\n" + "\n" + selectedCharacter+" Wins!"
+                        Toastify({
+                            text: message,
+                            duration: -1,
+                            destination: "https://github.com/apvarun/toastify-js",
+                            newWindow: true,
+                            close: true,
+                            gravity: "top", // `top` or `bottom`
+                            position: "right", // `left`, `center` or `right`
+                            stopOnFocus: true, // Prevents dismissing of toast on hover
+                            style: {
+                                background: "linear-gradient(to right, #003eb0, #0099b0)",
+                            },
+                            onClick: function(){} // Callback after click
+                        }).showToast();
+
+                        function confirmation(){
+                            if (window.confirm("You Win! Click Yes to quit")){
+                                window.location.href = "https://www.youtube.com/watch?v=KHSxaCs1DEs";
+                            };
+                        }
+                        setTimeout(confirmation, 3000);
+
+                    }else{
+                        message = suggestion.Type + " made by " + selectedCharacter + ":" + "\n" + suggestion.Murder + " used " + suggestion.Weapon + " in the " + suggestion.Room + "\n" + "\n" +  selectedCharacter +" Loses!"
+                        Toastify({
+                            text: message,
+                            duration: -1,
+                            destination: "https://github.com/apvarun/toastify-js",
+                            newWindow: true,
+                            close: true,
+                            gravity: "top", // `top` or `bottom`
+                            position: "right", // `left`, `center` or `right`
+                            stopOnFocus: true, // Prevents dismissing of toast on hover
+                            style: {
+                                background: "linear-gradient(to right, #b0002f, #b00099)",
+                            },
+                            onClick: function(){
+                            } // Callback after click
+                        }).showToast();
+                        
+                        function confirmation(){
+                            if (window.confirm("You Lose! Click Yes to quit")){
+                                window.location.href = "https://www.youtube.com/watch?v=KHSxaCs1DEs";
+                            };
+                        }
+                        setTimeout(confirmation, 3000);
+                        
+                    }
+                }
+    
+          
+            });
+
+        </script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+{% endblock %}

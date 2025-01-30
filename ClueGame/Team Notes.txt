@@ -1,0 +1,17 @@
+Team Notes
+Player class
+	Location on board, x, y
+	Cards they are holding
+	Character (maybe specific spawn due to character in this class?)
+
+
+Map Class
+	Size?
+	Player locations?
+	secret passage links
+	Room is blocked or not
+	each room???, separate class?
+
+
+Dice?????
+-no need, movements are hallways, rooms, secret passage 

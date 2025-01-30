@@ -1,0 +1,2 @@
+Starting find_closest_pairs with points=[(2, 3), (12, 30), (40, 50), (5, 1), (12, 10), (3, 4), (479, 40), (334, 343), (112, 694), (138, 188)] and m=0
+m does not meet requirements, m has to be greater than 0 or less than length of the list divided by 2.

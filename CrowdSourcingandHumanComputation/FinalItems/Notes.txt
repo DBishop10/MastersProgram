@@ -1,0 +1,182 @@
+Paper should be 4-8 pages long, IEEE format
+
+Shift to discussing both amount discussed online as well as contents????
+
+
+Ideas:
+
+Compare Professional Athletes performances post game launches/events, can we determine who might be playing too many video games?
+
+esport compare player and team sentiment to performances, also look at what players/teams are posting before the matches. Could look to multiple games?
+
+
+eSports Tournament Sentiment:
+    Compare sentiment toward teams or players during major eSports tournaments to traditional sports tournaments.
+    Hypothesis: Sentiment in eSports fandoms is more polarized compared to traditional sports.
+This one may be too close to the basketball one, maybe look specifically at performances on rivalry/beef matches
+
+Compare sentiment and volume of tweets before and after the launch of a new streaming platform or major series.
+
+Compare social media sentiment about major tech releases (e.g., iPhone vs. Samsung) over time.
+
+Compare sentiment toward emerging technologies (e.g., AI, blockchain) across time or demographic groups.
+
+Analyze sentiment trends within major fan groups (e.g., sports teams, music artists, or video games) to identify whether larger fanbases are more prone to toxicity.
+
+
+
+Tournament and Matches: https://escharts.com
+liquipedia.net
+
+Counter Strike 2: Perfect World Shanghai Major 2024: European RMR A (11/17-11/20)
+
+Betboom V GamerLegion Nov 20 1-2 0825
+
+Fnatic v ECLOT 2-1 Nov 20 2-1 0000
+
+Faze V Cloud9 Nov 19 2-1 0700
+
+NaVi V SAW 2-0 Nov 19 0020
+
+Nemiga V Rebels 2-1 Nov 18 0105
+
+Teams and Players
+
+Natus Vincere
+b1t
+Aleksib 
+jL 
+iM
+w0nderful
+
+FaZe Clan
+rain
+broky
+karrigan 
+ropz
+frozen
+
+SAW
+MUTiRiS 
+rmn 
+ewjerkz
+story 
+Ag1l 
+
+Fnatic
+KRIMZ 
+bodyy 
+matys 
+blameF 
+nawwk
+
+Cloud9
+Ax1Le
+Boombl4
+HeavyGod 
+ICY 
+interz 
+
+Rebels 
+Innocent
+Casey
+Olimp
+Flayy
+Kisserek
+
+Betboom
+Zorte 
+Magnojez
+Nafay
+S1ren
+KaiRON-
+
+GamerLegion
+Fl4mus
+Ztr
+Tauson
+Sl3nd
+Volt
+
+ECLOT
+Dytor
+nbqq
+FORSYY
+Blytz
+kreaz
+
+Nemiga
+Xant3r
+1eer
+Riskyb0b
+khaN
+zweih
+
+Bluesky
+user: mehoha6465@cantozil.com
+mehoha6465.bsky.social
+
+pass: idontcareaboutthisaccount
+
+
+
+Annotation Classes:
+
+Positive 1
+Negative 2
+Neutral 3
+
+
+
+Abstract (problem, method, findings)
+Introduction (the research question and why it’s important)
+Background (what have others done relevant to research question and why it’s insufficient)
+Methodology (method/approach are you doing to contribute to the research question)
+Findings/results (results of your analysis/data)
+Conclusions & Recommendations (what’s the “so what”, what are limitations, future research, and end with a positive statement)
+References (Do not describe your journey of discovery. Focus on succinctly communicating repeatable research finding)  
+
+
+
+
+Key Analyses
+Correlation Between Post Count and Performance
+
+Investigate whether teams with more community engagement (higher post_count) perform better (performance = 1).
+Visualization: Scatter plot of post_count vs. performance.
+Sentiment Breakdown and Performance
+
+Examine whether a higher proportion of positive posts (positive_posts / post_count) is associated with winning.
+Compare the average positive_posts and negative_posts for teams that won vs. teams that lost.
+Visualization: Bar plot comparing sentiment breakdown (positive_posts, negative_posts, neutral_posts) between winning and losing teams.
+Sentiment Ratios as Predictors
+
+Calculate sentiment ratios (e.g., positive_posts / (positive_posts + negative_posts)).
+Analyze the relationship between these ratios and performance.
+Visualization: Box plot or histogram of sentiment ratios for winning vs. losing teams.
+Total Sentiment Impact
+
+Create a "weighted sentiment score": \text{weighted sentiment} = 2 \cdot \text{positive_posts} - 2 \cdot \text{negative_posts} + \text{neutral_posts}.
+Compare the weighted sentiment score between winning and losing teams.
+Visualization: Scatter plot of weighted sentiment scores vs. performance.
+Top Performers vs. Low Performers
+
+Compare teams with performance = 1 (winners) and performance = 0 (losers) on all metrics (post_count, positive_posts, negative_posts, neutral_posts).
+Visualization: Summary statistics table or grouped bar chart.
+
+
+{'Betboom': ['Zorte', 'Magnojez', 'Nafay', 'S1ren', 'KaiRON-'],
+ 'Cloud9': ['Ax1Le', 'Boombl4', 'HeavyGod', 'ICY', 'interz'],
+ 'ECLOT': ['Dytor', 'nbqq', 'FORSYY', 'Blytz', 'kreaz'],
+ 'FaZe Clan': ['rain', 'broky', 'karrigan', 'ropz', 'frozen'],
+ 'Fnatic': ['KRIMZ', 'bodyy', 'matys', 'blameF', 'nawwk'],
+ 'GamerLegion': ['Fl4mus', 'Zorte', 'Tauson', 'Sl3nd', 'Volt'],
+ 'Natus Vincere': ['b1t', 'Aleksib', 'jL', 'iM', 'w0nderful'],
+ 'Nemiga': ['Xant3r', '1eer', 'Riskyb0b', 'khaN', 'zweih'],
+ 'Rebels': ['Innocent', 'Casey', 'Olimp', 'Flayy', 'Kisserek'],
+ 'SAW': ['MUTiRiS', 'rmn', 'ewjerkz', 'story', 'Ag1l']}
+
+
+
+Things to mention to do better:
+Dig into twitch stream chats, probably more informative there

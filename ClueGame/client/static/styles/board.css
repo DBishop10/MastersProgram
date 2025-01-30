@@ -1,0 +1,30 @@
+.table-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    border-style: solid;
+    border-color: brown;
+    border-width: 10px;
+    border-radius: 10px;
+    
+}
+
+img{
+    float:left;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }

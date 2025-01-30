@@ -1,0 +1,15 @@
+All submissions must be in a functional, data flow, literate style.
+
+1. Follow PEP8 coding standards for Python (except line length of 80 characters...just don't let it wrap).
+
+2. No OOP (Object Oriented Programming). You will use basic data structures (lists, dicts, tuples, namedtuples, sets) and functions to implement all algorithms. All functions must operate on their formal parameters and return values, unless they perform IO (read/print). They may not be more than 20 lines. In general, we follow "Uncle" Bob Martin's programming guidelines. Variables and functions should have good, descriptive names in terms of the domain (using snake_case). They should be focused and do only one thing. In Jupyter Lab, Shift-L will show you a line count. Use Python type hints.
+
+3. Every function will have three Jupyter notebook "cells" associated with it: Documentation (Markdown), Implementation (Code), Unit Testing (Code).
+
+4. The Documentation cell will follow the required Markdown format. It will provide an id anchor tag, name of the function, description of what the function does as well as the part it plays and importance in the overall algorithm, if applicable. For example, if you implement a function heuristic you must describe what the heuristic is and the importance of the heuristic in the overall algorithm. Of course, a helper function does not play a role in the algorithm so that part may be omitted. You must link to any functions it uses and any functions that use it. You must document the formal parameters and the return. No docstring documentation.
+
+5. The Unit Testing code cell must include three (3) assertions using the assert keyword, testing the implementation. You should test on small, understandable test cases that cover the main possibilities for the formal parameters (and not on the actual problem in the assignment, that's weird).
+
+6. Many assignments will provide skeleton implementations as the starting point. These are normally the "final" function that solves the problem in the notebook. You must edit the documentation for these functions to add the theoretical importance but you do not need to add unit testing. Instead, you should follow the output requirements in the directions, or, if there are none, look at any examples in the course notes. If there are none, then use your best judgement.
+
+7. You cannot use unapproved libraries (pandas, scikit-learn, etc.). Approved libraries are any library included explicitly in the environment.yml file. Be careful if you're using your own environment.

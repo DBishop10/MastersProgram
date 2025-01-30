@@ -1,0 +1,107 @@
+Test1:
+
+Initial tape state: 100-10
+Step 1: 100-10 Current state: q0
+Step 2: 100-10 Current state: q0
+Step 3: 100-10 Current state: q0
+Step 4: 100-10 Current state: q0
+Step 5: 100-10 Current state: q0
+Step 6: 100-10 Current state: q0
+Step 7: 100-10 Current state: q1
+Step 8: 100-1 Current state: q2
+Step 9: 100-1 Current state: q2
+Step 10: 100-1 Current state: q3
+Step 11: 10y-1 Current state: q0
+Step 12: 10y-1 Current state: q0
+Step 13: 10y-1 Current state: q0
+Step 14: 10y-1 Current state: q1
+Step 15: 10y- Current state: q4
+Step 16: 10y- Current state: q5
+Step 17: 10y- Current state: q5
+Step 18: 1xy- Current state: q6
+Step 19: 0xy- Current state: q7
+Step 20: 0xy- Current state: q7
+Step 21: 0xy- Current state: q7
+Step 22: 0xy Current state: q8
+Step 23: 0x0 Current state: q8
+Step 24: 010 Current state: q8
+Step 25: 010 Current state: qY
+Final tape state: 010 Number of steps: 25
+
+Test2:
+
+Initial tape state: 101-10
+Step 1: 101-10 Current state: q0
+Step 2: 101-10 Current state: q0
+Step 3: 101-10 Current state: q0
+Step 4: 101-10 Current state: q0
+Step 5: 101-10 Current state: q0
+Step 6: 101-10 Current state: q0
+Step 7: 101-10 Current state: q1
+Step 8: 101-1 Current state: q2
+Step 9: 101-1 Current state: q2
+Step 10: 101-1 Current state: q3
+Step 11: 10x-1 Current state: q0
+Step 12: 10x-1 Current state: q0
+Step 13: 10x-1 Current state: q0
+Step 14: 10x-1 Current state: q1
+Step 15: 10x- Current state: q4
+Step 16: 10x- Current state: q5
+Step 17: 10x- Current state: q5
+Step 18: 1xx- Current state: q6
+Step 19: 0xx- Current state: q7
+Step 20: 0xx- Current state: q7
+Step 21: 0xx- Current state: q7
+Step 22: 0xx Current state: q8
+Step 23: 0x1 Current state: q8
+Step 24: 011 Current state: q8
+Step 25: 011 Current state: qY
+Final tape state: 011 Number of steps: 25
+
+Test3:
+
+Initial tape state: 101111-101
+Step 1: 101111-101 Current state: q0
+Step 2: 101111-101 Current state: q0
+Step 3: 101111-101 Current state: q0
+Step 4: 101111-101 Current state: q0
+Step 5: 101111-101 Current state: q0
+Step 6: 101111-101 Current state: q0
+Step 7: 101111-101 Current state: q0
+Step 8: 101111-101 Current state: q0
+Step 9: 101111-101 Current state: q0
+Step 10: 101111-101 Current state: q0
+Step 11: 101111-101 Current state: q1
+Step 12: 101111-10 Current state: q4
+Step 13: 101111-10 Current state: q4
+Step 14: 101111-10 Current state: q4
+Step 15: 101111-10 Current state: q5
+Step 16: 10111y-10 Current state: q0
+Step 17: 10111y-10 Current state: q0
+Step 18: 10111y-10 Current state: q0
+Step 19: 10111y-10 Current state: q0
+Step 20: 10111y-10 Current state: q1
+Step 21: 10111y-1 Current state: q2
+Step 22: 10111y-1 Current state: q2
+Step 23: 10111y-1 Current state: q3
+Step 24: 10111y-1 Current state: q3
+Step 25: 1011xy-1 Current state: q0
+Step 26: 1011xy-1 Current state: q0
+Step 27: 1011xy-1 Current state: q0
+Step 28: 1011xy-1 Current state: q0
+Step 29: 1011xy-1 Current state: q1
+Step 30: 1011xy- Current state: q4
+Step 31: 1011xy- Current state: q5
+Step 32: 1011xy- Current state: q5
+Step 33: 1011xy- Current state: q5
+Step 34: 101yxy- Current state: q0
+Step 35: 101yxy- Current state: q0
+Step 36: 101yxy- Current state: q0
+Step 37: 101yxy- Current state: q0
+Step 38: 101yxy- Current state: q1
+Step 39: 101yxy Current state: q8
+Step 40: 101yx0 Current state: q8
+Step 41: 101y10 Current state: q8
+Step 42: 101010 Current state: q8
+Step 43: 101010 Current state: qY
+Final tape state: 101010 Number of steps: 43
