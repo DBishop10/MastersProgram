@@ -1,0 +1,5 @@
+Model Results:
+Average IoU: 0.68
+Precision: 0.70
+Recall: 0.70
+F1 Score: 0.70

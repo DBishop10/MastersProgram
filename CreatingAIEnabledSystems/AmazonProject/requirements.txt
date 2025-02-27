@@ -1,0 +1,9 @@
+numpy
+scikit-learn==0.24.2
+pandas
+flask
+matplotlib
+joblib
+textblob
+umap-learn
+gensim

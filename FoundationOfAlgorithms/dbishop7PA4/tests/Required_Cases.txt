@@ -1,0 +1,27 @@
+s1 
+s: 100010101, x: 101, y: 0
+Is Interweaving: True
+Indices for x: {[1, 2, 5], [7, 8, 9]}
+Indices for y: {[3], [4], [6]}
+Indices for noise: {[]}
+
+s2 
+s: 101010101010101, x: 101, y: 010
+Is Interweaving: True
+Indices for x: {[1, 2, 3], [7, 8, 9], [13, 14, 15]}
+Indices for y: {[4, 5, 6], [10, 11, 12]}
+Indices for noise: {[]}
+
+s3 
+s: 001100110101011001100110010101111, x: 101, y: 010
+Is Interweaving: True
+Indices for x: {[12, 13, 14], [15, 16, 18], [23, 25, 26]}
+Indices for y: {[9, 10, 11], [17, 19, 20], [21, 22, 24], [27, 28, 29]}
+Indices for noise: {[1, 2, 3, 4, 5, 6, 7, 8], [31, 30, 33, 32]}
+
+s4 
+s: 100110011001, x: 101, y: 010
+Is Interweaving: True
+Indices for x: {[1, 2, 4], [9, 11, 12]}
+Indices for y: {[3, 5, 6], [7, 8, 10]}
+Indices for noise: {[]}

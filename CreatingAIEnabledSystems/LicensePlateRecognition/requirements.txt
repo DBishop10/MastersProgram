@@ -1,0 +1,6 @@
+numpy
+opencv-python
+ffmpeg-python
+scikit-learn
+matplotlib
+pytesseract
